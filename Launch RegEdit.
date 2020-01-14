@@ -1,0 +1,6 @@
+80 port used by windows
+
+Launch RegEdit.
+2.    Go to HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\HTTP.
+3.    Change the value of "start" to 4, which means disabled.
+4.    Reboot your computer.
